@@ -13,7 +13,7 @@ contract SaveEther {
     function withdraw() external {
         require(msg.sender != address(0), "wrong EOA");
         uint256 _userSavings = savings[msg.sender];
-        if (_userSavings > 0) {
+        if (_userSavings == 0) {
             revert("you don't have any savings");
         }
         savings[msg.sender] -= _userSavings;
