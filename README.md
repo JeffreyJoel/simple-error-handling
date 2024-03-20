@@ -14,8 +14,6 @@ SaveEther is a simple smart contract designed to facilitate the deposit, withdra
 ## Deploying the Contract
 
 To deploy this contract, you will need to compile it using a Solidity compiler and then deploy it to the Ethereum network. [Remix]([https://pages.github.com/](https://remix.ethereum.org/)) is an amazing online tool for compiling and deploying contracts.
-```
-code blocks for commands
-```
+
 
 
